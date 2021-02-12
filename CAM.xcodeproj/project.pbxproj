@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5742202C25D5908200BE8A6E /* record_begin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5742202A25D5908100BE8A6E /* record_begin.m4a */; };
+		5742202D25D5908200BE8A6E /* record_stop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5742202B25D5908200BE8A6E /* record_stop.m4a */; };
+		5742203025D5908C00BE8A6E /* shot.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5742202F25D5908C00BE8A6E /* shot.m4a */; };
 		5760BADB25D46F9600A98F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760BADA25D46F9600A98F30 /* AppDelegate.swift */; };
 		5760BADD25D46F9600A98F30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760BADC25D46F9600A98F30 /* SceneDelegate.swift */; };
 		5760BADF25D46F9600A98F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760BADE25D46F9600A98F30 /* ViewController.swift */; };
 		5760BAE225D46F9600A98F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5760BAE025D46F9600A98F30 /* Main.storyboard */; };
 		5760BAE425D46F9700A98F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5760BAE325D46F9700A98F30 /* Assets.xcassets */; };
 		5760BAE725D46F9700A98F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5760BAE525D46F9700A98F30 /* LaunchScreen.storyboard */; };
+		5760BAF325D479C800A98F30 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760BAF225D479C800A98F30 /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5742202A25D5908100BE8A6E /* record_begin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = record_begin.m4a; sourceTree = "<group>"; };
+		5742202B25D5908200BE8A6E /* record_stop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = record_stop.m4a; sourceTree = "<group>"; };
+		5742202F25D5908C00BE8A6E /* shot.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = shot.m4a; sourceTree = "<group>"; };
 		5760BAD725D46F9600A98F30 /* CAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5760BADA25D46F9600A98F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5760BADC25D46F9600A98F30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		5760BAE325D46F9700A98F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5760BAE625D46F9700A98F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5760BAE825D46F9700A98F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5760BAF225D479C800A98F30 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				5760BADA25D46F9600A98F30 /* AppDelegate.swift */,
 				5760BADC25D46F9600A98F30 /* SceneDelegate.swift */,
 				5760BADE25D46F9600A98F30 /* ViewController.swift */,
+				5760BAF225D479C800A98F30 /* CameraController.swift */,
 				5760BAE025D46F9600A98F30 /* Main.storyboard */,
 				5760BAE325D46F9700A98F30 /* Assets.xcassets */,
 				5760BAE525D46F9700A98F30 /* LaunchScreen.storyboard */,
 				5760BAE825D46F9700A98F30 /* Info.plist */,
+				5742202A25D5908100BE8A6E /* record_begin.m4a */,
+				5742202B25D5908200BE8A6E /* record_stop.m4a */,
+				5742202F25D5908C00BE8A6E /* shot.m4a */,
 			);
 			path = CAM;
 			sourceTree = "<group>";
@@ -124,9 +136,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5742202D25D5908200BE8A6E /* record_stop.m4a in Resources */,
 				5760BAE725D46F9700A98F30 /* LaunchScreen.storyboard in Resources */,
 				5760BAE425D46F9700A98F30 /* Assets.xcassets in Resources */,
 				5760BAE225D46F9600A98F30 /* Main.storyboard in Resources */,
+				5742203025D5908C00BE8A6E /* shot.m4a in Resources */,
+				5742202C25D5908200BE8A6E /* record_begin.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 			files = (
 				5760BADF25D46F9600A98F30 /* ViewController.swift in Sources */,
 				5760BADB25D46F9600A98F30 /* AppDelegate.swift in Sources */,
+				5760BAF325D479C800A98F30 /* CameraController.swift in Sources */,
 				5760BADD25D46F9600A98F30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,14 +302,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CAM/CAM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N8L5V4YZX;
 				INFOPLIST_FILE = CAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mr.paw.CAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,14 +324,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CAM/CAM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N8L5V4YZX;
 				INFOPLIST_FILE = CAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mr.paw.CAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
